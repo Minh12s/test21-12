@@ -2,7 +2,7 @@ var app = angular.module("myapp", []);
 app.controller("contactcontroller", function($scope){
     var uid=1;
     $scope.contacts = [
-        {id: 0, 'name' : 'manh', 'email' : 'manhluong160@gmail.com','password':'16032004', 'phone' : '012345689'}
+        {id: 0, 'name' : 'minh', 'email' : 'nhatminh98@gmail.com','password':'16032004', 'phone' : '012345689'}
     ];
     $scope.savecontact = function() {
         if ($scope.newcontact.id == null) {
